@@ -1,5 +1,5 @@
 name: pixel2mqtt
-version: "0.3.0-beta.1"
+version: "0.3.0"
 slug: pixel2mqtt
 description: Home Assistant bridge and web editor for Govee H6631 pixel displays running pixeld firmware
 url: https://github.com/SamWiIIiams/pixel2mqtt

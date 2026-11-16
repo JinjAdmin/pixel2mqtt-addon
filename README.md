@@ -5,8 +5,11 @@
 Add-on repository for [pixel2mqtt](https://github.com/SamWiIIiams/pixel2mqtt), the bridge and web editor for
 Govee H6631 pixel displays running the [pixeld-h6631](https://github.com/SamWiIIiams/pixeld-h6631) firmware.
 
-**Install:** Settings → Add-ons → Add-on Store → ⋮ → Repositories → add
-`https://github.com/SamWiIIiams/pixel2mqtt-addon`, then install **pixel2mqtt**. Or use the button above.
+**Install:** use the button above, or in Home Assistant go to Settings → **Apps** → **Install app** → ⋮ →
+**Repositories** and add `https://github.com/SamWiIIiams/pixel2mqtt-addon`. Then install **pixel2mqtt**.
+(Older Home Assistant versions call these *add-ons*: Settings → Add-ons → Add-on Store → ⋮ → Repositories.)
+
+Tested on Home Assistant OS 2026.11 on a Raspberry Pi 5. Images are built for amd64 and aarch64.
 
 Running Home Assistant in a container instead? Use the Docker image directly; see the pixel2mqtt README.
 

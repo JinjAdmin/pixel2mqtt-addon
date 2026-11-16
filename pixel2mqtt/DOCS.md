@@ -6,11 +6,12 @@ displays, Home Assistant discovery, and an editor for animations and icons with 
 
 ## Before you start
 - Install the firmware on the display first (see the pixeld-h6631 README).
-- Install the **Mosquitto broker** add-on and the MQTT integration. pixel2mqtt gets the broker login from it
-  automatically, so there's nothing to type.
+- Install the **Mosquitto broker** app (add-on), start it, and add the **MQTT** integration Home Assistant then
+  offers. pixel2mqtt gets the broker login from it automatically, so there's nothing to type.
 
 ## Using it
-1. Start the add-on and open **Pixel displays** in the sidebar.
+1. Start the app. Open its web UI with **Open web UI**, or switch on **Show in sidebar** on the app's page to get
+   a **Pixel displays** entry in the sidebar.
 2. Under **Displays**, adopt your display: a pairing code appears on the panel.
 3. Under **Library**, click **Import built-in animations & icons** to convert the artwork already on your display,
    including scenes you applied from the Govee app before installing the firmware.
