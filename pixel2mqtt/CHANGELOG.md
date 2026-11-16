@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.1
+- Editor guide built in: the **?** button at the top right opens it in a side drawer (works offline, matches
+  the installed version).
+- Frames: set one duration for every frame of a layer at once (Set all frames).
+
 ## 0.4.0
 - Editor projects: a start screen, Save (and autosave) separate from Send to display, status Draft / On display /
   Changed since sent, warnings before replacing something on the display, export/import of project files.
