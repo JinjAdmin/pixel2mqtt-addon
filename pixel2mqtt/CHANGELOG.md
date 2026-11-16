@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.2
+- Frames: shift a frame's pixels (Shift + arrow keys), or make a run of frames that each move a step, with
+  "fit loop" for a seamless wrap.
+- Loop hint next to the timeline: shows whether the scene loops seamlessly and which layer doesn't.
+- New colour picker (no browser pop-up) and a palette of your last 18 colours.
+- Styled dialogs instead of the browser's pop-ups.
+- The built-in guide is rebuilt around a full example project, covering every editor feature.
+
 ## 0.4.1
 - Editor guide built in: the **?** button at the top right opens it in a side drawer (works offline, matches
   the installed version).
