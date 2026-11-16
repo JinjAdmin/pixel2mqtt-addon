@@ -1,0 +1,34 @@
+name: pixel2mqtt
+version: "0.3.0-beta.1"
+slug: pixel2mqtt
+description: Home Assistant bridge and web editor for Govee H6631 pixel displays running pixeld firmware
+url: https://github.com/SamWiIIiams/pixel2mqtt
+arch:
+  - amd64
+  - aarch64
+image: swilli23/pixel2mqtt
+init: false
+host_network: true            # display discovery (UDP 7778) and live frames (UDP 7777)
+ingress: true
+ingress_port: 8466
+panel_icon: mdi:dots-grid
+panel_title: Pixel displays
+services:
+  - mqtt:need
+options:
+  base_topic: pixel2mqtt
+  discovery_prefix: homeassistant
+  hosts: []
+  scan_interval: 120
+  allow_direct_access: false
+schema:
+  base_topic: str
+  discovery_prefix: str
+  hosts:
+    - str
+  scan_interval: int(30,3600)
+  allow_direct_access: bool
+  mqtt_host: str?
+  mqtt_port: port?
+  mqtt_user: str?
+  mqtt_password: password?
