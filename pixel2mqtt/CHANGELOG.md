@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.3
+- The editor canvas is now a workspace around the panel: zoom (mouse wheel or the - / + buttons), pan (middle-drag,
+  Alt + drag or the pan button) and "Recenter on viewport".
+- Draw layers bigger than the panel: the parts outside it are shown (other layers dimmed), so long scrolling
+  backgrounds no longer repeat every 52 pixels. "Hide outside viewport" shows the panel only.
+
 ## 0.4.2
 - Frames: shift a frame's pixels (Shift + arrow keys), or make a run of frames that each move a step, with
   "fit loop" for a seamless wrap.
