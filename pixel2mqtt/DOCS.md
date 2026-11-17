@@ -1,7 +1,7 @@
 # pixel2mqtt
 
 Bridge and web editor for **Govee H6631 Gaming Pixel Light** displays running the custom
-[pixeld-h6631](https://github.com/SamWiIIiams/pixeld-h6631) firmware. One MQTT connection for any number of
+[pixeld-h6631](https://github.com/JinjAdmin/pixeld-h6631) firmware. One MQTT connection for any number of
 displays, Home Assistant discovery, and an editor for animations and icons with live preview on the panel.
 
 ## Before you start
