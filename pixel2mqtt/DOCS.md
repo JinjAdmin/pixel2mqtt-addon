@@ -29,6 +29,9 @@ The display then appears in Home Assistant as a device, with its controls and an
 | `mqtt_host` / `mqtt_port` / `mqtt_user` / `mqtt_password` | | Use a different broker instead of the Mosquitto add-on |
 
 ## Notes
+- **Info screens** read entities from Home Assistant through the Supervisor (the add-on asks for Home Assistant
+  API access for this). The screen editor uses it for the entity picker and live values, and pixel2mqtt sends the
+  values of bound entities to each display that has the screen.
 - The add-on uses the host network so it can find displays and send live frames to them.
 - No artwork is included. Imports read the files from your own display and write the results back to it.
 - Unofficial; not affiliated with Govee.

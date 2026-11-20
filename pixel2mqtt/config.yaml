@@ -13,6 +13,7 @@ ingress: true
 ingress_port: 8466
 panel_icon: mdi:dots-grid
 panel_title: Pixel displays
+homeassistant_api: true       # info screens: the entity picker and live values for bound screen values
 services:
   - mqtt:need
 options:
