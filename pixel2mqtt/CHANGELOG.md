@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.5.0
+Needs pixeld-h6631 v0.3.0 for info screens.
+- **Info screens:** design layouts in the new screen editor (text, values, icons, bars, sparklines, shapes) and bind
+  them to Home Assistant entities: state, attribute, history, fixed values and weather forecasts.
+- **Template screens:** one layout for a group of similar entities (e.g. every stock ticker), picked in Home
+  Assistant or rotating.
+- **Exposed settings:** turn any screen setting (font, colour, a chart's time window, …) into a Home Assistant
+  entity.
+- Sparklines skip flat stretches and use long-term statistics for long windows; slow fetches no longer block MQTT.
+- Editor: Sources tab, Expose toggles, one grid layout, LED-dot canvases, a font picker drawn at the panel's scale,
+  icon size set in the icon editor.
+- Library refresh; guide rewritten with a Screens chapter and screenshots.
+- "Info" is now "Screens" / "screen rotation", matching pixeld v0.3.0.
+
 ## 0.4.3
 - The editor canvas is now a workspace around the panel: zoom (mouse wheel or the - / + buttons), pan (middle-drag,
   Alt + drag or the pan button) and "Recenter on viewport".
